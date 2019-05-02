@@ -1,0 +1,36 @@
+public class SignUp implements Akun {
+    String nama_depan;
+    String nama_belakang;
+    String username;
+    String password;
+    String email;
+
+    public void setNamaDepan(String depan) {
+        this.nama_depan=depan;
+    }
+    
+    public void setNamaBelakang(String belakang) {
+        this.nama_belakang=belakang;
+    }
+    
+    public void setUsername(String username) {
+        this.username=username;
+    }
+    
+    public void setPassword(String pass) {
+        this.password=pass;
+    }
+    
+    public void setEmail(String email) {
+        this.email=email;
+    }
+
+    @Override
+    public String getUsername() {
+        return username;
+    }
+ 
+    public String getEmail(){
+        return email;
+    }
+}
