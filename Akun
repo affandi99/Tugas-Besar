@@ -1,6 +1,7 @@
 // Interface
 
 public interface Akun {
+    public String getNama();
     public String getUsername();
     public String getEmail();
 }
